@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linerDialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Đăng Kí"
+            android:textAlignment="center"
+            android:textColor="#141515"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtTenDangKi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edit_custom"
+            android:drawableLeft="@drawable/baseline_person_24"
+            android:drawablePadding="10dp"
+            android:hint="Tên Đăng Nhập"
+            android:padding="5dp"
+            android:textColorHint="#020024" />
+
+        <EditText
+            android:id="@+id/edtMatKhauDK"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_custom"
+            android:drawableLeft="@drawable/outline_password_24"
+            android:drawablePadding="10dp"
+            android:hint="Mật Khẩu"
+            android:inputType="textPassword"
+            android:padding="7dp"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#020024" />
+        <EditText
+            android:id="@+id/edtFullname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_custom"
+            android:drawableLeft="@drawable/baseline_drive_file_rename_outline_24"
+            android:drawablePadding="10dp"
+            android:hint="Fullname"
+            android:padding="7dp"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#020024" />
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_custom"
+            android:drawableLeft="@drawable/baseline_email_24"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:padding="7dp"
+            android:textColorHighlight="@color/cardview_dark_background"
+            android:textColorHint="#020024" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnOk"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="5dp"
+                android:backgroundTint="#62b5ec"
+                android:text="OK"
+                android:textColor="@color/black" />
+
+            <Button
+                android:id="@+id/btnHuy"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="5dp"
+                android:backgroundTint="#62b5ec"
+                android:text="Huỷ"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
